@@ -1,0 +1,4 @@
+/tmp
+/target
+*.zst
+argvus*.tar.gz
