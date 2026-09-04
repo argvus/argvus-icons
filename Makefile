@@ -1,8 +1,31 @@
+PREFIX ?= /usr
+DESTDIR ?=
 BRANCH := $(shell git branch --show-current 2>/dev/null || echo "unknown")
 REMOTES := $(shell git remote 2>/dev/null || echo "")
 
+.DEFAULT_GOAL := help
 
-.PHONY: push push-lease build clean
+.PHONY: help install uninstall validate push push-lease build clean
+
+help:
+	@echo "Available targets:"
+	@echo "  make build"
+	@echo "  make install"
+	@echo "  make uninstall"
+	@echo "  make validate"
+
+install:
+	install -dm755 "$(DESTDIR)$(PREFIX)/share/icons"
+	cp -a config/icons/. "$(DESTDIR)$(PREFIX)/share/icons/"
+
+uninstall:
+	rm -rf "$(DESTDIR)$(PREFIX)/share/icons/Argvus Icons"
+	rm -rf "$(DESTDIR)$(PREFIX)/share/icons/Argvus Dark Icons"
+	rm -rf "$(DESTDIR)$(PREFIX)/share/icons/Argvus Light Icons"
+
+validate:
+	@tools/validate-icons.sh
+	@echo "argvus-icons validation ok"
 
 push:
 	@echo "Push normal → branch: $(BRANCH)"

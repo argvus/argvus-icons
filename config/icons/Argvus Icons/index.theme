@@ -1,0 +1,5 @@
+[Icon Theme]
+Name=Argvus Icons
+Comment=Argvus icon theme based on Adwaita
+Inherits=Argvus Dark Icons,Argvus Light Icons,Adwaita,hicolor
+Directories=

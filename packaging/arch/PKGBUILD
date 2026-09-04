@@ -1,0 +1,23 @@
+# Maintainer: William C. Canin
+pkgname=argvus-icons
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Argvus icon theme aliases based on Adwaita"
+arch=('any')
+url="https://github.com/argvus/argvus-icons"
+license=('GPL-3.0-only')
+options=('!debug')
+depends=(
+  'adwaita-icon-theme'
+  'hicolor-icon-theme'
+)
+source=(
+  "${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
+)
+sha256sums=('SKIP')
+
+package() {
+  cd "${pkgname}-${pkgver}"
+
+  make DESTDIR="${pkgdir}" PREFIX=/usr install
+}
