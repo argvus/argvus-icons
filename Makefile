@@ -16,7 +16,7 @@ help:
 
 install:
 	install -dm755 "$(DESTDIR)$(PREFIX)/share/icons"
-	cp -a config/icons/. "$(DESTDIR)$(PREFIX)/share/icons/"
+	cp -a src/icons/. "$(DESTDIR)$(PREFIX)/share/icons/"
 
 uninstall:
 	rm -rf "$(DESTDIR)$(PREFIX)/share/icons/Argvus Icons"

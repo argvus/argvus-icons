@@ -9,7 +9,7 @@ themes=(
 )
 
 for theme in "${themes[@]}"; do
-  index="$root_dir/config/icons/$theme/index.theme"
+  index="$root_dir/src/icons/$theme/index.theme"
   test -f "$index"
   grep -q "^Name=$theme$" "$index"
   grep -q '^Inherits=.*Adwaita' "$index"
