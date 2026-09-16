@@ -1,6 +1,6 @@
 /tmp
 /target
+/build
 *.zst
 argvus*.tar.gz
 
-/dist/
