@@ -40,7 +40,7 @@ Os manifestos são apenas metadados. Eles não alteram os arquivos do tema e nã
 
 ## Seleção do tema de ícones
 
-O tema de ícones ativo é a chave `appearance.icon_theme` no `config.json`. Um valor vazio seleciona `Argvus Icons`. O `argvus-appearance` aplica o tema configurado nas configurações do GNOME, no GTK 3 e 4 e no Qt (`qt6ct`). Se o tema configurado não estiver instalado, ele volta para `Argvus Icons`.
+O tema de ícones ativo é a chave `appearance.icon_theme` no `config.json`. Um valor vazio seleciona `Argvus Dark Icons` para temas escuros e `Argvus Light Icons` para temas claros. O `argvus-appearance` aplica o tema configurado nas configurações do GNOME, no GTK 3 e 4 e no Qt (`qt6ct`). Se o tema configurado não estiver instalado, ele volta para o padrão do mesmo modo.
 
 ## Instalação
 

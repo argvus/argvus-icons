@@ -40,7 +40,7 @@ The manifests are metadata only. They do not change the theme files and do not w
 
 ## Selecting the icon theme
 
-The active icon theme is the `appearance.icon_theme` key in `config.json`. An empty value selects `Argvus Icons`. `argvus-appearance` applies the configured theme to GNOME settings, GTK 3 and GTK 4, and Qt (`qt6ct`). If the configured theme is not installed, it falls back to `Argvus Icons`.
+The active icon theme is the `appearance.icon_theme` key in `config.json`. An empty value selects `Argvus Dark Icons` for dark themes and `Argvus Light Icons` for light themes. `argvus-appearance` applies the configured theme to GNOME settings, GTK 3 and GTK 4, and Qt (`qt6ct`). If the configured theme is not installed, it falls back to the same mode default.
 
 ## Installation
 
