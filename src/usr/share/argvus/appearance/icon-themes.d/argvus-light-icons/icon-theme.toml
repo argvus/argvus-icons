@@ -1,0 +1,8 @@
+# ARGVUS official icon theme manifest. Read by the Control Center to mark
+# the theme as official. `name` must match the Name= key of the installed
+# index.theme, which is the value GNOME, GTK and Qt use.
+id = "argvus-light-icons"
+name = "Argvus Light Icons"
+variant = "light"
+official = true
+description = "ARGVUS icon theme variant for light surfaces, based on Adwaita"

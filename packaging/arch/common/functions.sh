@@ -43,6 +43,14 @@ arch_check_icons_payload() {
 		grep -q "^Name=${theme}$" "$index"
 		grep -q '^Inherits=.*Adwaita' "$index"
 	done
+
+	local -a manifest_ids=(argvus-icons argvus-dark-icons argvus-light-icons)
+	for manifest_id in "${manifest_ids[@]}"; do
+		local manifest="${source_root}/src/usr/share/argvus/appearance/icon-themes.d/${manifest_id}/icon-theme.toml"
+		test -f "$manifest"
+		grep -q "^id = \"${manifest_id}\"$" "$manifest"
+		grep -q '^official = true$' "$manifest"
+	done
 }
 
 arch_package_icons_payload() {
@@ -57,6 +65,13 @@ arch_package_icons_payload() {
 	for theme in "${themes[@]}"; do
 		install -Dm644 "${icons_root}/${theme}/index.theme" \
 			"${pkgdir}/usr/share/icons/${theme}/index.theme"
+	done
+
+	local -a manifest_ids=(argvus-icons argvus-dark-icons argvus-light-icons)
+	for manifest_id in "${manifest_ids[@]}"; do
+		install -Dm644 \
+			"${source_root}/src/usr/share/argvus/appearance/icon-themes.d/${manifest_id}/icon-theme.toml" \
+			"${pkgdir}/usr/share/argvus/appearance/icon-themes.d/${manifest_id}/icon-theme.toml"
 	done
 	install -Dm644 "${source_root}/LICENSE" \
 		"${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"

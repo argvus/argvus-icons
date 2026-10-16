@@ -29,6 +29,13 @@ for theme in "Argvus Icons" "Argvus Dark Icons" "Argvus Light Icons"; do
 	grep -q '^Inherits=.*Adwaita' "$index" || die "theme does not inherit Adwaita: $index"
 done
 
+for manifest_id in argvus-icons argvus-dark-icons argvus-light-icons; do
+	manifest="src/usr/share/argvus/appearance/icon-themes.d/${manifest_id}/icon-theme.toml"
+	[[ -f "$manifest" ]] || die "missing icon theme manifest: $manifest"
+	grep -q "^id = \"${manifest_id}\"$" "$manifest" || die "invalid manifest id: $manifest"
+	grep -q '^official = true$' "$manifest" || die "manifest is not marked official: $manifest"
+done
+
 metadata() {
 	bash -c '
 		source "$1"

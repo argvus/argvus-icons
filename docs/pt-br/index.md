@@ -1,34 +1,55 @@
 ---
 title: ARGVUS Icons
-description: Tema e sistema de ícones para desktop ARGVUS
+description: Temas de ícones e seus manifestos oficiais para o desktop ARGVUS
 ---
 
 # ARGVUS Icons
 
-O ARGVUS usa um tema de ícones cuidadosamente curado, projetado para funcionar harmoniosamente em todos os aplicativos e componentes do sistema. O conjunto de ícones segue princípios de design moderno, mantendo consistência visual em todo o ambiente desktop.
+O `argvus-icons` instala os temas de ícones ARGVUS em `/usr/share/icons`. Os temas herdam os temas do sistema Adwaita e hicolor, então aplicativos que não trazem um ícone ARGVUS usam o Adwaita.
 
-## Visão Geral do Conjunto de Ícones
+## Temas instalados
 
-O tema de ícones do ARGVUS fornece:
-- Linguagem visual consistente em todos os aplicativos
-- Suporte para múltiplos tamanhos (16px, 32px, 48px, 64px)
-- Ícones SVG escaláveis para renderização nítida em qualquer resolução
-- Integração com GTK, Plasma e temas de ícones XDG padrão
+| Tema | Diretório | Papel |
+|---|---|---|
+| `Argvus Icons` | `/usr/share/icons/Argvus Icons` | Tema padrão. Herda as variantes escura e clara. |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variante para superfícies escuras. |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variante para superfícies claras. |
+
+Cada tema traz um arquivo `index.theme`. O valor `Name=` desse arquivo é o nome que GNOME, GTK e Qt usam para selecionar o tema.
+
+As variantes escura e clara ainda não trazem arquivos de ícone próprios, então hoje resolvem para os ícones Adwaita por herança.
+
+## Manifestos oficiais
+
+Cada tema tem um manifesto em `/usr/share/argvus/appearance/icon-themes.d/<id>/icon-theme.toml`:
+
+```toml
+id = "argvus-icons"
+name = "Argvus Icons"
+variant = "default"
+official = true
+description = "ARGVUS icon theme based on Adwaita (default)"
+```
+
+- `id` é o nome do diretório do manifesto e o identificador estável.
+- `name` precisa ser igual ao valor `Name=` do `index.theme` instalado.
+- `variant` é `default`, `dark` ou `light`.
+- `official = true` marca o tema como tema ARGVUS para as ferramentas do desktop.
+
+Os manifestos são apenas metadados. Eles não alteram os arquivos do tema e não gravam nenhuma configuração do usuário.
+
+## Seleção do tema de ícones
+
+O tema de ícones ativo é a chave `appearance.icon_theme` no `config.json`. Um valor vazio seleciona `Argvus Icons`. O `argvus-appearance` aplica o tema configurado nas configurações do GNOME, no GTK 3 e 4 e no Qt (`qt6ct`). Se o tema configurado não estiver instalado, ele volta para `Argvus Icons`.
 
 ## Instalação
 
-Os ícones são instalados como parte do pacote principal do ARGVUS ou podem ser instalados separadamente:
+Instale com o pacote ARGVUS ou isoladamente:
 
 ```bash
 pacman -S argvus-icons
 ```
 
-## Configuração
-
-O tema de ícones é aplicado automaticamente ao usar ARGVUS. Você também pode defini-lo manualmente em:
-- ARGVUS Control Center → Appearance → Icons
-- Ou editando sua configuração GTK
-
 ## Contribuindo
 
-Para contribuir com ícones ou reportar problemas, visite o repositório ARGVUS Icons no GitHub.
+Para contribuir com ícones ou reportar problemas, use o repositório ARGVUS Icons no GitHub.
