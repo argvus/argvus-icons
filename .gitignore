@@ -4,3 +4,4 @@
 *.zst
 argvus*.tar.gz
 
+__pycache__/
