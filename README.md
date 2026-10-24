@@ -5,6 +5,12 @@ Argvus icon themes based on Adwaita.
 [![CI](https://github.com/argvus/argvus-icons/actions/workflows/ci.yml/badge.svg)](https://github.com/argvus/argvus-icons/actions/workflows/ci.yml)
 [![Release](https://github.com/argvus/argvus-icons/actions/workflows/release.yml/badge.svg)](https://github.com/argvus/argvus-icons/actions/workflows/release.yml)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
+[![Language: Shell](https://img.shields.io/badge/Shell-POSIX-4EAA25?logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![Platform: Arch Linux | Wayland](https://img.shields.io/badge/platform-Arch%20Linux%20%7C%20Wayland-1793D1?logo=archlinux&logoColor=white)](https://archlinux.org/)
+[![Pull requests](https://img.shields.io/github/issues-pr/argvus/argvus-icons)](https://github.com/argvus/argvus-icons/pulls)
+[![Issues](https://img.shields.io/github/issues/argvus/argvus-icons)](https://github.com/argvus/argvus-icons/issues)
+[![Last commit](https://img.shields.io/github/last-commit/argvus/argvus-icons)](https://github.com/argvus/argvus-icons/commits/main)
+[![Docs](https://img.shields.io/badge/docs-project-blue)](./docs/)
 
 The package provides `Argvus Icons`, `Argvus Dark Icons`, and `Argvus Light
 Icons` under `/usr/share/icons`. They inherit the system Adwaita and hicolor
