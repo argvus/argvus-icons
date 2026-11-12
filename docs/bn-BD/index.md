@@ -1,5 +1,5 @@
 ---
-title: ARGVUS Icons
+title: ARGVUS আইকন
 description: ARGVUS ডেস্কটপের আইকন থিম এবং তাদের অফিসিয়াল ম্যানিফেস্ট
 ---
 
@@ -9,11 +9,11 @@ description: ARGVUS ডেস্কটপের আইকন থিম এবং
 
 ## ইন্সটল করা থিমগুলি
 
-| Theme | Directory | Role |
+| থিম | ডিরেক্টরি | ভূমিকা |
 |---|---|---|
 | `Argvus Icons` | `/usr/share/icons/Argvus Icons` | ডিফল্ট থিম। ডার্ক এবং লাইট ভেরিয়েন্টগুলি উত্তরাধিকার সূত্রে পায়। |
-| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variant for dark surfaces. |
-| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variant for light surfaces. |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | অন্ধকার পৃষ্ঠের জন্য বৈকল্পিক. |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | হালকা পৃষ্ঠতলের জন্য বৈকল্পিক. |
 
 প্রত্যেকটি থিম একটি `index.theme` ফাইল সরবরাহ করে। সেই ফাইলের `Name=` মানটি হচ্ছে থিম নির্বাচনের জন্য GNOME, GTK এবং Qt যে নামটি ব্যবহার করে।
 
@@ -42,7 +42,7 @@ description = "ARGVUS icon theme based on Adwaita (default)"
 
 সক্রিয় আইকন থিম হল `appearance.icon_theme` কী `config.json`-এ। খালি মান ডার্ক থিমের জন্য `Argvus Dark Icons` এবং লাইট থিমের জন্য `Argvus Light Icons` নির্বাচন করে। `argvus-appearance` কনফিগার করা থিমটি GNOME সেটিংস, GTK 3 এবং GTK 4, এবং Qt (`qt6ct`)-এ প্রয়োগ করে। যদি কনফিগার করা থিমটি ইনস্টল না থাকে, এটি একই মোডের ডিফল্টে ফিরে যায়।
 
-## Installation
+## ইনস্টলেশন
 
 ARGVUS প্যাকেজের সঙ্গে অথবা নিজে ইনস্টল করুন:
 
@@ -50,6 +50,6 @@ ARGVUS প্যাকেজের সঙ্গে অথবা নিজে ই
 pacman -S argvus-icons
 ```
 
-## Contributing
+## অবদান
 
 আইকন অবদান রাখতে বা সমস্যা রিপোর্ট করতে GitHub-এ ARGVUS আইকন রেপোজিটরি ব্যবহার করুন।

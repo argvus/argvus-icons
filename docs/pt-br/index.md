@@ -1,9 +1,9 @@
 ---
-title: ARGVUS Icons
+title: Ícones ARGVUS
 description: Temas de ícones e seus manifestos oficiais para o desktop ARGVUS
 ---
 
-# ARGVUS Icons
+# ARGVUS Ícones
 
 O `argvus-icons` instala os temas de ícones ARGVUS em `/usr/share/icons`. Os temas herdam os temas do sistema Adwaita e hicolor, então aplicativos que não trazem um ícone ARGVUS usam o Adwaita.
 

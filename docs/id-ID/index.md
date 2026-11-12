@@ -1,5 +1,5 @@
 ---
-title: ARGVUS Icons
+title: Ikon ARGVUS
 description: Tema ikon dan manifest resmi mereka untuk desktop ARGVUS
 ---
 
@@ -9,11 +9,11 @@ description: Tema ikon dan manifest resmi mereka untuk desktop ARGVUS
 
 ## Tema yang diinstal
 
-| Theme | Directory | Role |
+| Tema | Direktori | Peran |
 |---|---|---|
 | `Argvus Icons` | `/usr/share/icons/Argvus Icons` | Tema default. Mewarisi varian gelap dan terang. |
-| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variant for dark surfaces. |
-| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variant for light surfaces. |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Varian untuk permukaan gelap. |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Varian untuk permukaan terang. |
 
 Setiap tema menyertakan file `index.theme`. Nilai `Name=` dari file itu adalah nama yang digunakan GNOME, GTK, dan Qt untuk memilih tema.
 
@@ -42,7 +42,7 @@ Manifes hanya berupa metadata. Mereka tidak mengubah file tema dan tidak menulis
 
 Tema ikon aktif adalah kunci `appearance.icon_theme` dalam `config.json`. Nilai kosong memilih `Argvus Dark Icons` untuk tema gelap dan `Argvus Light Icons` untuk tema terang. `argvus-appearance` menerapkan tema yang dikonfigurasi ke pengaturan GNOME, GTK 3 dan GTK 4, serta Qt (`qt6ct`). Jika tema yang dikonfigurasi tidak terpasang, ia kembali ke default mode yang sama.
 
-## Installation
+## Instalasi
 
 Pasang dengan paket ARGVUS atau secara mandiri:
 
@@ -50,6 +50,6 @@ Pasang dengan paket ARGVUS atau secara mandiri:
 pacman -S argvus-icons
 ```
 
-## Contributing
+## Berkontribusi
 
 Untuk menyumbang ikon atau melaporkan masalah, gunakan repositori ARGVUS Icons di GitHub.

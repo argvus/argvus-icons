@@ -41,7 +41,7 @@ Les manifestes sont uniquement des métadonnées. Ils ne modifient pas les fichi
 
 Le thème d'icônes actif est la clé `appearance.icon_theme` dans `config.json`. Une valeur vide sélectionne `Argvus Dark Icons` pour les thèmes sombres et `Argvus Light Icons` pour les thèmes clairs. `argvus-appearance` applique le thème configuré aux paramètres GNOME, à GTK 3 et GTK 4, et à Qt (`qt6ct`). Si le thème configuré n'est pas installé, il revient au mode par défaut correspondant.
 
-## Installation
+## Mise en place
 
 Installer avec le paquet ARGVUS ou seul :
 

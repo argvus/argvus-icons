@@ -1,5 +1,5 @@
 ---
-title: ARGVUS Icons
+title: ARGVUS شبیہیں
 description: ARGVUS ﺲﭩﺴﯿﻓ ﯽﻨﯿﻣ ﯼﺭﺎﮐﺮﺳ ﮯﮐ ﻥﺍ ﺭﻭﺍ ﺰﻤﯿﮭﺗ ﻦﮑﯿﺋﺁ ﮯﯿﻟ ﮯﮐ ﭖﺎﭨ ﮏﺴﯾﮈ
 ---
 
@@ -9,11 +9,11 @@ description: ARGVUS ﺲﭩﺴﯿﻓ ﯽﻨﯿﻣ ﯼﺭﺎﮐﺮﺳ ﮯﮐ ﻥ�
 
 ##                                                               ﺰﻤﯿﮭﺗ ﮦﺪﺷ ﻝﺎﭩﺴﻧﺍ
 
-| Theme | Directory | Role |
+| تھیم | ڈائریکٹری | کردار |
 |---|---|---|
 | `Argvus Icons` | `/usr/share/icons/Argvus Icons`       | ۔ﮯﮨ ﺎﺗﺮﮐ ﻞﺻﺎﺣ ﮟﯿﻣ ﺖﺛﺍﺭﻭ ﻮﮐ ﺰﻧﮊﺭﻭ ﻒﻠﺘﺨﻣ ﮯﮐ ﭧﺋﻻ﻿ ﺭﻭﺍ ﮎﺭﺍﮈ ۔ﻢﯿﮭﺗ ﭧﻟﺎﻔﯾﮈ |
-| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variant for dark surfaces. |
-| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variant for light surfaces. |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | تاریک سطحوں کے لیے مختلف۔ |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | روشنی کی سطحوں کے لیے مختلف۔ |
 
                                                        ﮯﮨ ﺎﺗﺁ ﮫﺗﺎﺳ ﮏﯾﺍ ﻢﯿﮭﺗ ﺮﮨ`index.theme`                                                                         ۔ﻞﺋﺎﻓ`Name=`۔ﮟﯿﮨ ﮯﺗﺮﮐ ﻝﺎﻤﻌﺘﺳﺍ ﮯﯿﻟ ﮯﮐ ﮯﻧﺮﮐ ﺐﺨﺘﻨﻣ ﻢﯿﮭﺗ Qt ﺭﻭﺍ GNOME، GTK ﻮﺟ ﮯﮨ ﻡﺎﻧ ﮦﻭ ﺭﺪﻗ ﯽﮐ
 
@@ -42,7 +42,7 @@ description = "ARGVUS icon theme based on Adwaita (default)"
 
 
 
-## Installation
+## تنصیب
 
 ARGVUS ﮟﯾﺮﮐ ﻝﺎﭩﺴﻧﺍ ﻮﮐ ﺱﺍ ﺩﻮﺧ ﺎﯾ ﮫﺗﺎﺳ ﮯﮐ ﺞﮑﯿﭘ:
 
@@ -50,6 +50,6 @@ ARGVUS ﮟﯾﺮﮐ ﻝﺎﭩﺴﻧﺍ ﻮﮐ ﺱﺍ ﺩﻮﺧ ﺎﯾ ﮫﺗﺎ�
 pacman -S argvus-icons
 ```
 
-## Contributing
+## تعاون کرنا
 
 ۔ﮟﯾﺮﮐ ﻝﺎﻤﻌﺘﺳﺍ ﯼﺮﭨﺯﻮﭙﯾﺭ ﺰﻨﮑﯿﺋﺁ ARGVUS ﺮﭘ GitHub ،ﮯﯿﻟ ﮯﮐ ﮯﻨﯾﺩ ﻉﻼ﻿ﻃﺍ ﯽﮐ ﻞﺋﺎﺴﻣ ﺎﯾ ﮯ

@@ -1,5 +1,5 @@
 ---
-title: ARGVUS Icons
+title: أيقونات ARGVUS
 description:                               ARGVUS ﺐﺘﻜﻣ ﺢﻄﺴﻟ ﺔﻴﻤﺳﺮﻟﺍ ﺎﻬﺗﺎﻧﺎﻴﺑﻭ ﺕﺎﻧﻮﻘﻳﻷ﻿ﺍ ﺕﺎﻤﺳ
 ---
 
@@ -9,23 +9,23 @@ description:                               ARGVUS ﺐﺘﻜﻣ ﺢﻄﺴﻟ ﺔ�
 
 ##                                                                ﺔﺘﺒﺜﻤﻟﺍ ﺕﺎﻤﻴﺜﻟﺍ
 
-| Theme | Directory | Role |
+| موضوع | الدليل | الدور |
 |---|---|---|
-| `Argvus Icons` | `/usr/share/icons/Argvus Icons`                             | .ﺔﺤﺗﺎﻔﻟﺍﻭ ﺔﻨﻛﺍﺪﻟﺍ ﺦﺴﻨﻟﺍ ﺙﺮﺗ .ﺔﻴﺿﺍﺮﺘﻓﻻ﻿ﺍ ﺔﻤﺴﻟﺍ | 
-| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variant for dark surfaces. |
-| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variant for light surfaces. |
+| `Argvus Icons` | `/usr/share/icons/Argvus Icons`                             | .ﺔﺤﺗﺎﻔﻟﺍﻭ ﺔﻨﻛﺍﺪﻟﺍ ﺦﺴﻨﻟﺍ ﺙﺮﺗ .ﺔﻴﺿﺍﺮﺘﻓﻻ﻿ﺍ ﺔﻤﺴﻟﺍ |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | البديل للأسطح الداكنة. |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | البديل للأسطح الخفيفة. |
 
-Each theme ships an 
+Each theme ships an
 
- file. The 
+ file. The
 
- value of that file is the name GNOME, GTK and Qt use to select the theme.
+قيمة هذا الملف هي الاسم GNOME، GTK وQt الذي يستخدمه لتحديد السمة.
 
 .ﺔﺛﺍﺭﻮﻟﺍ ﻝﻼ﻿ﺧ ﻦﻣ Adwaita ﺕﺎﻧﻮﻘﻳﺃ ﻞﺤﻣ ﻞﺤﺗ ًﺎﻴﻟﺎﺣ ﻲﻬﻓ ﻚﻟﺬﻟ ،ﺪﻌﺑ ﺎ
 
 ## ﺔﻴﻤﺳﺮﻟﺍ ﻢﺋﺍﻮﻘﻟﺍ
 
-Each theme has a manifest under 
+Each theme has a manifest under
 
 :
 
@@ -38,7 +38,7 @@ description = "ARGVUS icon theme based on Adwaita (default)"
 ```
 
 - id ﺖﺑﺎﺜﻟﺍ ﻑّﺮﻌﻤﻟﺍﻭ ﺖﺴﻔﻴﻧﺎﻤﻟﺍ ﻞﻴﻟﺩ ﻢﺳﺍ ﻮﻫ.
-- .ﺖﺒﺜﻤﻟﺍ `index.theme` ﻲﻓ `Name=` ﺔﻤﻴﻘﻟﺍ  id  `/usr/share/argvus/appearance/icon-themes.d/<id>/icon-theme.toml`  `id` `name` ﻱﻭﺎﺴﻳ 
+- .ﺖﺒﺜﻤﻟﺍ `index.theme` ﻲﻓ `Name=` ﺔﻤﻴﻘﻟﺍ  id  `/usr/share/argvus/appearance/icon-themes.d/<id>/icon-theme.toml`  `id` `name` ﻱﻭﺎﺴﻳ
 -  index.theme  `Name=`  `index.theme` `variant` ﻮﻫ `default`، `dark` ﻭﺃ `light`
 - `official = true` qt6ct  argvus-appearance  Argvus Light Icons  Argvus Dark Icons  config.json  `appearance.icon_theme` `config.json`  `Argvus Dark Icons`  `Argvus Light Icons`  `argvus-appearance`  `qt6ct`   ﻉﻮﺿﻮﻤﻛ ﻉﻮﺿﻮﻤﻟﺍ ﺩﺪﺤﻳ ARGVUS ﺐﺘﻜﻤﻟﺍ ﺢﻄﺳ ﺕﺍﻭﺩﻷ﻿.
 
@@ -48,7 +48,7 @@ description = "ARGVUS icon theme based on Adwaita (default)"
 
 
 
-## Installation
+## التثبيت
 
                                :ﻞﺼﻔﻨﻣ ﻞﻜﺸﺑ ﻭﺃ ARGVUS ﺔﻣﺰﺣ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺖﻴﺒﺜﺘﻟﺎﺑ ﻢﻗ
 
@@ -56,6 +56,6 @@ description = "ARGVUS icon theme based on Adwaita (default)"
 pacman -S argvus-icons
 ```
 
-## Contributing
+## المساهمة
 
    .GitHub ﻰﻠﻋ ARGVUS ﺯﻮﻣﺭ ﻉﺩﻮﺘﺴﻣ ﻡﺪﺨﺘﺳﺍ ،ﻞﻛﺎﺸﻤﻟﺍ ﻦﻋ ﻍﻼ﻿ﺑﻺ﻿ﻟ ﻭﺃ ﺯﻮﻣﺮﻟﺎﺑ ﺔﻤﻫﺎﺴﻤﻠﻟ

@@ -1,5 +1,5 @@
 ---
-title: ARGVUS Icons
+title: ARGVUS Simgeler
 description: ARGVUS masaüstü
 ---
 
@@ -9,11 +9,11 @@ description: ARGVUS masaüstü
 
 ## Kurulu temalar
 
-| Theme | Directory | Role |
+| Tema | Dizin | Rol |
 |---|---|---|
 | `Argvus Icons` | `/usr/share/icons/Argvus Icons` | Varsayılan tema. Koyu ve açık varyantları devralır. |
-| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variant for dark surfaces. |
-| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variant for light surfaces. |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Koyu yüzeyler için varyant. |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Hafif yüzeyler için varyant. |
 
 Her tema bir `index.theme` dosyası ile gelir. O dosyanın `Name=` değeri, GNOME, GTK ve Qt'nin temayı seçmek için kullandığı addır.
 
@@ -42,7 +42,7 @@ Manifestler sadece metadata'dır. Tema dosyalarını değiştirmezler ve herhang
 
 Aktif simge teması, `appearance.icon_theme` anahtarı `config.json` içindedir. Boş bir değer, karanlık temalar için `Argvus Dark Icons` ve açık temalar için `Argvus Light Icons` seçer. `argvus-appearance`, yapılandırılmış temayı GNOME ayarlarına, GTK 3 ve GTK 4’e ve Qt’ye (`qt6ct`) uygular. Yapılandırılmış tema yüklü değilse, aynı modun varsayılanına geri döner.
 
-## Installation
+## Kurulum
 
 ARGVUS paketiyle veya tek başına yükleyin:
 
@@ -50,6 +50,6 @@ ARGVUS paketiyle veya tek başına yükleyin:
 pacman -S argvus-icons
 ```
 
-## Contributing
+## Katkıda Bulunmak
 
 Simgeler katkıda bulunmak veya sorun bildirmek için GitHub'daki ARGVUS Icons deposunu kullanın.

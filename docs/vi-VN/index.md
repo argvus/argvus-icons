@@ -1,5 +1,5 @@
 ---
-title: ARGVUS Icons
+title: Biểu tượng ARGVUS
 description: Các chủ đề biểu tượng và các tệp manifest chính thức của chúng cho máy tính để bàn ARGVUS
 ---
 
@@ -9,11 +9,11 @@ description: Các chủ đề biểu tượng và các tệp manifest chính th�
 
 ## Các chủ đề đã cài đặt
 
-| Theme | Directory | Role |
+| Chủ đề | Thư mục | Vai trò |
 |---|---|---|
 | `Argvus Icons` | `/usr/share/icons/Argvus Icons` | Chủ đề mặc định. Kế thừa các biến thể tối và sáng. |
-| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Variant for dark surfaces. |
-| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Variant for light surfaces. |
+| `Argvus Dark Icons` | `/usr/share/icons/Argvus Dark Icons` | Biến thể cho bề mặt tối. |
+| `Argvus Light Icons` | `/usr/share/icons/Argvus Light Icons` | Biến thể cho bề mặt ánh sáng. |
 
 Mỗi chủ đề đều đi kèm một tệp `index.theme`. Giá trị `Name=` của tệp đó là tên GNOME, GTK và Qt sử dụng để chọn chủ đề.
 
@@ -42,7 +42,7 @@ Các manifest chỉ là siêu dữ liệu. Chúng không thay đổi các tệp 
 
 Gói biểu tượng đang hoạt động là khóa `appearance.icon_theme` trong `config.json`. Giá trị trống sẽ chọn `Argvus Dark Icons` cho các giao diện tối và `Argvus Light Icons` cho các giao diện sáng. `argvus-appearance` áp dụng giao diện đã cấu hình cho cài đặt GNOME, GTK 3 và GTK 4, và Qt (`qt6ct`). Nếu giao diện đã cấu hình chưa được cài đặt, nó sẽ trở về chế độ mặc định tương ứng.
 
-## Installation
+## Cài đặt
 
 Cài đặt với gói ARGVUS hoặc riêng lẻ:
 
@@ -50,6 +50,6 @@ Cài đặt với gói ARGVUS hoặc riêng lẻ:
 pacman -S argvus-icons
 ```
 
-## Contributing
+## Đóng góp
 
 Để đóng góp biểu tượng hoặc báo cáo sự cố, hãy sử dụng kho biểu tượng ARGVUS trên GitHub.
